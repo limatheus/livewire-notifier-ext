@@ -1,5 +1,5 @@
 {
-    "name": "codespb/livewire-notifier",
+    "name": "limatheus/livewire-notifier-ext",
     "description": "Simple Livewire notifications system without any dependencies except TALL-stack.",
     "license": "MIT",
     "version": "1.0.3",
@@ -10,7 +10,7 @@
             "homepage": "https://codespb.com"
         }
     ],
-    "homepage": "https://github.com/codespb/livewire-notifier",
+    "homepage": "https://github.com/limatheus/livewire-notifier-ext",
     "keywords": ["Laravel", "LivewireNotifier","Toast","Growl","Livewire"],
     "require": {
         "illuminate/support": "~7|~8"

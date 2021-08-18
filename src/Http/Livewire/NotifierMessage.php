@@ -68,10 +68,10 @@ class NotifierMessage extends Component
         $this->closable = $this->closable ?? config('livewire-notifier.closable');
         $this->msgClass = $this->msgClass ?? config('livewire-notifier.types.' . ($this->message['type'] ?? 'default') . '.msgClass', config('livewire-notifier.types.default.msgClass'));
         $this->progressClass = $this->progressClass ?? config('livewire-notifier.types.' . ($this->message['type'] ?? 'default') . '.progressClass', config('livewire-notifier.types.default.progressClass'));
-        $this->action_url = $this->action_url ?? null;
-        $this->action_label = $this->action_label ?? null;
-        $this->action_type = $this->action_type ?? null;
-        $this->play_sound = $this->play_sound ?? false;
+        $this->action_url = $this->message['action_url'] ?? null;
+        $this->action_label = $this->message['action_label'] ?? null;
+        $this->action_type = $this->message['action_type'] ?? null;
+        $this->play_sound = $this->message['play_sound'] ?? false;
 
     }
 

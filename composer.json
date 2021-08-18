@@ -2,7 +2,6 @@
     "name": "limatheus/livewire-notifier-ext",
     "description": "Simple Livewire notifications system without any dependencies except TALL-stack.",
     "license": "MIT",
-    "version": "1.0.6",
     "authors": [
         {
             "name": "Dmitriy Belyaev",
